@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: #ffffff !important; */
+  background: url("https://img.freepik.com/free-vector/abstract-background-with-hexagons_23-2148995949.jpg?w=900&t=st=1723030618~exp=1723031218~hmac=fd9542daa413e5355aee76047878fc3bfbd3d72dd2a9b2e652d0cb6a35cf006c");
+  /* background: url("https://img.freepik.com/premium-vector/abstract-artificial-intelligence-brain_33403-43.jpg?w=900"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000000 !important;
+}
+/* 
+rgb(17,79,244)
+rgb(7,34,107)
+rgb(35,31,32)
+rgb(35,31,302)
+rgb(13,58,184)
+rgb(88,128,238) */
+header,
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper,
+.MuiDialogTitle-root,
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  background: #0902c9 !important;
+
+  color: #ffffff !important;
+}
+.MuiButton-containedPrimary {
+  background: #ff5500 !important;
+  color: #ffffff;
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  /* box-shadow: 2px 0px grey !important; */
+  /* -moz-box-shadow: 2px 0px grey !important;
+  -webkit-box-shadow: 2px 0px grey !important;
+  box-shadow: 2px 0px grey !important; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+.css-emrlq1 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* background-color: black;
+  color: white; */
+}
+
+.css-1033rfx {
+  padding: 2rem;
+  margin-bottom: 40px;
+}
+
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  /* background: white !important; */
+  border: 0px !important;
+}
+
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root {
+  color: #000000 !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  border-radius: 10px !important;
+  height: 1.275em !important;
+}
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root {
+  margin-bottom: 5px !important;
+}
+
+/* tbody tr:nth-child(odd) {
+  background-color: #efebeb;
+  color: #fff;
+} */
+
+.css-1f773le-MuiButtonBase-root-MuiAccordionSummary-root {
+  background: -webkit-linear-gradient(
+    to right,
+    #0083b0,
+    #00b4db
+  ) !important; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0083b0, #00b4db) !important;
+  color: #ffffff !important;
+  border-top-left-radius: 18px !important;
+  border-top-right-radius: 18px !important;
+}
+
+.MuiAccordionSummary-content > h6 {
+  margin-top: 4px !important;
+}
+
+.css-yw020d-MuiAccordionSummary-expandIconWrapper {
+  color: #ffffff !important;
+}
+.css-zsq1z8-MuiPaper-root-MuiAccordion-root {
+  border-radius: 18px !important;
+}
+.css-16c50h-MuiInputBase-root-MuiTablePagination-select,
+.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar
+  .MuiTablePagination-actions {
+  margin-top: 16px !important;
+}
+
+.MuiTextField-root {
+  padding: "2%";
+  color: #000000 !important;
+}
+
+/* Remove border when the input field is focused */
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+/* Optional: Customize the focus effect */
+.MuiOutlinedInput-root.Mui-focused {
+  box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.25);
+}
+
+/* General styling for inputs */
+.MuiTextField-root {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* Optional: Customize input field padding */
+.MuiOutlinedInput-input {
+  padding: 12px;
+}
+
+/* Customize the input label on focus */
+.MuiInputLabel-root.Mui-focused {
+  color: #1976d2; /* Customize the label color when focused */
+}
+
+/* Remove the focus effect from the button */
+.MuiButtonBase-root:focus {
+  outline: none;
+}
+
+@media (min-width: 1200px) {
+  .css-1oqqzyl-MuiContainer-root {
+    max-width: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .css-1oqqzyl-MuiContainer-root {
+    max-width: none !important;
+  }
+}
+
+@media (min-width: 600px) {
+  .css-1oqqzyl-MuiContainer-root {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.css-1y942vo-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+  pointer-events: none;
+  cursor: none;
+  color: inherit !important;
+  opacity: 0.5;
+}
+
+img {
+  /* max-width: 100%; */
+  height: auto;
+  image-rendering: pixelated;
+  image-orientation: flip;
+}
+
+.MuiTextField-root {
+  background: transparent !important;
+}
+.code-snippet {
+  white-space: "pre-wrap" !important;
+  word-break: "break-word" !important;
+  background: "#0902c9 " !important;
+  color: "#ffffff" !important;
+  padding: "10px" !important;
+  border-radius: "5px" !important;
+  font-family: "'Courier New', Courier, monospace" !important;
+  overflow-x: "auto" !important;
+  max-width: "100%" !important;
+}

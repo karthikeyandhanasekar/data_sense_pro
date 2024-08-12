@@ -1,0 +1,55 @@
+/* src/App.css */
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+}
+
+.main {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.data-table th {
+  background-color: #f4f4f4;
+}
+
+.add-data-btn {
+  margin-bottom: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
